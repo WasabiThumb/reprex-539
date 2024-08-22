@@ -3,6 +3,7 @@ import {nodePolyfills} from "vite-plugin-node-polyfills";
 
 export default defineConfig({
     mode: 'development',
+    base: '/reprex-539',
     build: {
         sourcemap: true
     },
