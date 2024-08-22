@@ -1,0 +1,76 @@
+:root {
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#demo {
+  position: absolute;
+  top: 5vh;
+  left: 5vw;
+  height: 90vh;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: min(2.5vw, 2.5vh);
+  text-align: center;
+}
+
+#demo h1 {
+  margin: 0;
+  font-size: min(3.5vw, 3.5vh);
+}
+
+#input-box, #output-box {
+  background-color: rgba(255, 255, 255, 0.87);
+  color: #242424;
+  font: inherit;
+  padding: 1em;
+  border-radius: 0.5em;
+  display: inline-block;
+  border: none;
+  min-height: 10vh;
+}
+
+#transfer {
+  display: inline-block;
+  text-align: center;
+  min-height: 1.5vh;
+}
+
+#transfer button {
+  font-size: min(2vw, 2vh);
+  display: inline-block;
+  background-color: #1f6ffb;
+  color: #eee;
+  padding: 0.5em;
+  border-radius: 0.25em;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+#transfer button:hover {
+  background-color: #143d88;
+}
+
+#transfer button img {
+  display: inline;
+  height: 1em;
+  transform: translateY(0.2em);
+}
+
+.code {
+  font-size: 0.875em;
+  display: inline;
+  font-family: "JetBrains Mono", "Courier New", monospace;
+}

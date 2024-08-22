@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>readable-stream #539</title>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div id="demo">
+      <h1 id="input">Input (UTF-8)</h1>
+      <textarea id="input-box" aria-labelledby="input" aria-label="Input" autofocus></textarea>
+      <div id="transfer">
+        <button>
+          <img src="/arrow.svg" alt="Arrow">
+          transfer data using <span class="code">readable-stream</span>
+        </button>
+      </div>
+      <h1 id="output">Output (UTF-8)</h1>
+      <div id="output-box" aria-labelledby="output"></div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
