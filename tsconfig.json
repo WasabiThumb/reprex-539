@@ -13,6 +13,9 @@
     "moduleDetection": "force",
     "noEmit": true,
 
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
     /* Linting */
     "strict": true
   },
